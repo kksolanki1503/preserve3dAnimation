@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   background-color: #10161b;
-  /* border: 1px solid red; */
 }
 
 .list .item {
@@ -18,13 +17,14 @@
   width: 200px;
   object-fit: cover;
 }
+
 .list {
   transform-style: preserve-3d;
   transform: perspective(1000px);
 }
 
 .list .item {
-  transition: 0.5s;
+  transition: 0.3s;
   filter: brightness(0);
 }
 
